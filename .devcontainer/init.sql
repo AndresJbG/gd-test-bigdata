@@ -97,6 +97,7 @@ INSERT INTO Clientes (Nombre, Email, Telefono, Direccion) VALUES
 ('Itziar Sevillano Molins', 'burgosfortunata@gmail.com', '+34 712 83 97 6', 'Pasaje de Marina Acevedo 75 Piso 3  Santa Cruz de Tenerife, 50346'),
 ('Gustavo Miralles', 'hectorgirona@grande-roldan.com', '+34621694466', 'Paseo Samanta Cabrero 77 Apt. 21  Huesca, 16373'),
 ('Nélida Escobar Córdoba', 'zsanz@hotmail.com', '+34649088870', 'Camino Chuy Bas 76 Santa Cruz de Tenerife, 91719');
+
 -- Insertar Productos
 INSERT INTO Productos (Nombre, Descripcion, Precio, Stock) VALUES
 ('Laptop Lenovo ThinkPad X1 Ñ-carbon', 'Producto tecnológico de alta calidad: Laptop Lenovo ThinkPad X1 Ñ-carbon.', 442.47849, 91),
