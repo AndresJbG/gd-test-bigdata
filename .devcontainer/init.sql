@@ -59,38 +59,38 @@ INSERT INTO Clientes (Nombre, Email, Telefono, Direccion) VALUES
 ('Gabriela Núñez', 'gabriela_nunez@hotmail.com', '0994321678', 'Calle Mercurio 67-45');
 
 INSERT INTO Productos (Nombre, Descripcion, Precio, Stock) VALUES
-('Teléfono Xiaomi', 'Smartphone con pantalla AMOLED', 399.99000, 50),
-('Auriculares Ñ-tech', 'Auriculares con cancelación de ruido', 59.95000, 100),
-('Laptop HP', 'Computadora portátil con 16GB RAM', 999.00000, 25),
-('Teclado Mecánico', 'Teclado RGB retroiluminado', 75.50000, 80),
-('Monitor Samsung', 'Monitor LED 24 pulgadas', 180.45000, 30),
-('Mouse Gamer', 'Mouse óptico con DPI ajustable', 25.99000, 200),
-('Silla Ergonómica', 'Silla de oficina ajustable', 250.25000, 15),
-('Cable HDMI', 'Cable HDMI de 2 metros', 12.50000, 150),
-('Router Wi-Fi', 'Router de alta velocidad', 89.99000, 50),
-('Disco Duro Externo', 'Disco duro de 1TB', 120.75000, 45);
+('Teléfono Xiaomi', 'Smartphone con pantalla AMOLED', 399.99001, 50),
+('Auriculares Ñ-tech', 'Auriculares con cancelación de ruido', 59.95001, 100),
+('Laptop HP', 'Computadora portátil con 16GB RAM', 999.0004, 25),
+('Teclado Mecánico', 'Teclado RGB retroiluminado', 75.50004, 80),
+('Monitor Samsung', 'Monitor LED 24 pulgadas', 180.4505, 30),
+('Mouse Gamer', 'Mouse óptico con DPI ajustable', 25.99005, 200),
+('Silla Ergonómica', 'Silla de oficina ajustable', 250.25005, 15),
+('Cable HDMI', 'Cable HDMI de 2 metros', 12.50005, 150),
+('Router Wi-Fi', 'Router de alta velocidad', 89.99005, 50),
+('Disco Duro Externo', 'Disco duro de 1TB', 120.75005, 45);
 
 INSERT INTO Ordenes (ID_Cliente, Total) VALUES
-(1, 459.94000),
-(2, 119.90000),
+(1, 459.94002),
+(2, 119.90002),
 (3, 175.99000),
-(4, 1250.25000),
-(5, 89.99000),
-(6, 75.50000),
-(7, 220.45000),
-(8, 399.99000),
-(9, 180.45000),
-(10, 250.25000);
+(4, 1250.25008),
+(5, 89.99005),
+(6, 75.50005),
+(7, 220.45005),
+(8, 399.99005),
+(9, 180.45005),
+(10, 250.25005);
 
 
 INSERT INTO Detalles_Orden (ID_Orden, ID_Producto, Cantidad, Precio_Unitario, Subtotal) VALUES
-(1, 1, 1, 399.99000, 399.99000),
-(1, 2, 1, 59.95000, 59.95000),
-(2, 2, 2, 59.95000, 119.90000),
-(3, 3, 1, 999.00000, 999.00000),
-(3, 4, 1, 75.50000, 75.50000),
-(4, 5, 2, 180.45000, 360.90000),
-(5, 6, 4, 25.99000, 103.96000),
-(6, 7, 1, 250.25000, 250.25000),
-(7, 8, 2, 12.50000, 25.00000),
-(8, 9, 1, 89.99000, 89.99000);
+(1, 1, 1, 399.99001, 399.99001),
+(1, 2, 1, 59.95001, 59.95001),
+(2, 2, 2, 59.95002, 119.90002),
+(3, 3, 1, 999.00004, 999.00004),
+(3, 4, 1, 75.50004, 75.50004),
+(4, 5, 2, 180.45005, 360.90005),
+(5, 6, 4, 25.99005, 103.96005),
+(6, 7, 1, 250.25005, 250.25005),
+(7, 8, 2, 12.50005, 25.00005),
+(8, 9, 1, 89.99005, 89.99005);
